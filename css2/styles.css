@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* header styles start    */
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.header-container{
+    display: flex;
+    background-color: black;
+    width: 1321px;
+    padding-top: 30px;
+    border-radius: 15px;
+}
+.header-info{
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.header-title h1{
+    color: whitesmoke;
+    font-size: 50px;
+    
+}
+.header-title p{
+    color: whitesmoke;
+    font-size: 14px;
+}
+.header-banner{
+    
+    margin-right: 70px;
+}
+.header-btn button{
+    color: white;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.header-btn i{
+    margin-left: 10px;
+}
+.header-btn button:hover{
+    color: #DD0000;
+    background-color: white;
+}
+
+/* header styles End */
+
+/* main styles start */
+.aside{
+    background-color: #161616;;
+    width: 312px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.aside-link{
+    width: 80%;
+    background-color: white;
+    margin: 10px;
+    border-radius: 7px;
+    margin: 20px;
+}
+.aside-link a{
+    text-decoration: none;
+    color: #161616;
+    display: block;
+    text-align: center;
+    padding: 17px 0px;
+    
+}
+.first-link{
+    background-color: #DD0000;
+    
+}
+.first-link a{
+    color: white;
+}
+
+/* header styles End    */
+
+/* Main styles start    */
+main{
+    display: flex;
+    justify-content: center;  
+}
+.container{
+    width: 1321px;
+    display: flex;
+    column-gap: 40px;
+    
+}
+.match{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    width: 75%;
+}
+.match-container{
+    border: 1px solid lightgray;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.team-flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.team-flag span{
+        margin: 0px 10px;
+}
+.team-name h3{
+    font-size: 20px;
+    text-align: center;
+}
+.team-name p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #B9B9B9;
+} 
+/* Main styles start    */
+
+/* Footer styles start    */
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 444px;
+    margin-top: 100px;
+}
+.footer-container{
+    text-align: center;
+    margin-top: 90px;
+    
+}
+.goal h2{
+    color: white;
+    font-size: 40px;
+}
+hr{
+    width: 60%;
+    margin-bottom: 30px;
+}
+.footer-bar a{
+    text-decoration: none;
+    color: #B9B9B9;
+    margin-right: 20px;
+    
+}
+.social-link{
+    margin-top: 2.5em;
+}
+.social-link i{
+    font-size: 30px;
+    color: brown;
+    margin-right: 20px;
+}
+/* Footer styles End    */
