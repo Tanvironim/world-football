@@ -182,6 +182,8 @@ hr{
 /* Footer  styles End */
 
 /* Responsive  styles star */
+
+/*    For mobile Device        */
 @media screen and (max-width: 576px) {
     header{
         display: flex;
@@ -215,6 +217,7 @@ hr{
     .container{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .aside{
         background-color: white;
@@ -232,7 +235,7 @@ hr{
         
     }
     .transfer-container{
-        width: 41%;
+        margin-right: 5px;
         margin-left: 5px;
     }
     footer{
@@ -252,6 +255,60 @@ hr{
     .footer-bar a{
         margin-bottom: 15px;
     }
+  }
+
+  /*    For Tablet Device        */
+
+  @media screen and (max-width: 992px) and (min-width: 577px) {
+    header{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .header-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .header-title h1{
+        font-size: 30px;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .aside{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .aside-link{
+        width: 30%;
+    }
+    .aside-link a{
+        border: 1px solid #adaaaa;
+        border-radius: 7px;
+        
+    }
+    .transfer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .transfer-container{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
   }
 
 /* Responsive  styles End */
