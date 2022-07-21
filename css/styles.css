@@ -223,7 +223,8 @@ hr{
         background-color: white;
         display: flex;
         flex-direction: column;
-        margin-left: 120px;
+        width: 100%;
+        
     }
     .aside-link a{
         border: 1px solid #adaaaa;
